@@ -34,7 +34,6 @@ logs = {
 
 logs['Oluwaseun'].append('2025-01-20 10:00AM')
 logs['Oluwaseun'].append('2025-01-21 11:00AM')
-
 logs['Aisha'].append('2025-01-21 09:00AM')
 
 print(logs)
@@ -42,7 +41,6 @@ print(logs)
 print('================')
 
 students = {'Joy': 20, 'Mark': 22, 'Sade': 19}
-
 filtered = {name: age for name, age in students.items() if age > 20}
 
 print(filtered)
@@ -59,3 +57,20 @@ print('================')
 #Keep only numbers that are divisible by both 2 and 3 using list comprehension
 div_2__3 = [n for n in list if n % 2 == 0 and n % 3 == 0]
 print(div_2__3)
+
+print('================')
+#Mapping numbers to their squares dictionary
+squares = {n: n*n for n in range(5)}
+print(squares)
+
+print('================')
+#simple multiplication table in a list
+table = [[i*j for j in range(1, 6)] for i in range(1, 6)]
+print(table)
+
+print('================')
+
+emails = ['a@gmail.com', 'b@yahoo.com', 'c@gmail.com']
+gmail_users = [e for e in emails if "gmail" in e]
+
+print(gmail_users)
