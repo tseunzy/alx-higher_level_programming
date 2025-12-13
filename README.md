@@ -14,6 +14,9 @@ file handling, and object-oriented programming.
 - **intermediate/**  
   Lists, dictionaries, file handling, error handling
 
+  **advanced-python/**
+  decorator, context-manager, generators, regex expression, json
+
 - **algorithms/**  
   Factorial, Fibonacci, prime numbers, palindrome checker
 
